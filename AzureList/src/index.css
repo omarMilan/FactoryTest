@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-Primary: #4d7d96;
+  --color-Secondary: #eff6f9;
+  --color-taskHolder: #d1d8db;
+
+  --breakpoint-sm: 64rem; /* 1024px - Smallest Laptop */
+  --breakpoint-md: 80rem; /* 1280px - Standard Laptop */
+  --breakpoint-lg: 90rem; /* 1440px - Large Laptop */
+  --breakpoint-xl: 120rem; /* 1920px - Full HD Desktop */
+}
+
+html,
+body {
+  @apply m-0 p-0 w-full h-full overflow-hidden;
+}
